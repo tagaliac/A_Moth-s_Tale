@@ -48,6 +48,10 @@ p {
     position: relative;
     top: 0;
 }
+
+.text{
+    font-family: cursive;
+}
   
 /* The dots/bullets/indicators */
 /*.dot {
@@ -64,7 +68,22 @@ p {
 .active, .dot:hover {
     background-color: #717171;
 }*/
-  
+
+/* button styling*/
+.button{
+    border-color: white;
+    background-color: #7777;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.button:hover{
+    color: #00d9ff;
+}
+
 /* Fading animation */
 .fade {
     animation-name: fade;

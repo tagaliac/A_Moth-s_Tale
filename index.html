@@ -7,7 +7,6 @@
         <!-- style-->
         <link rel="stylesheet" type="text/css" href="style.css">
         <script type="text/JavaScript" src="slider.js"></script>
-        <script language="JavaScript"></script>
     </head>
     
     <body style="background-color:black; color:white" onload="showSlides(1)">
@@ -19,15 +18,9 @@
             <!-- Description-->
             <p>Game Description</p> <!-- put the description here-->
 
-            <!-- Download Link-->
-            <p><a href=https://github.com/AlexanderRitter02/GameJamAttraction2022 style="background-color: azure;">
-                    Download Game
-                </a>
-            </p>
-
             <!-- Trailor-->
             <p style="font-size:175%">Trailer</p>
-            <video width="320" height="240" controls>
+            <video width="1000" height="563" controls>
                 <source src="trailor.mp4" type="video/mp4"> <!-- put the trailor here-->
                 Your browser does not support this video format
             </video>
@@ -36,7 +29,7 @@
 
             <!-- objective-->
             <p style="font-size:175%">How to play</p>
-            <img src="Missing_Image.png" alt="Missing_Image">
+            <img src="img/Missing_Image.png" alt="Missing_Image">
             <p> <!-- put the description in there-->
                 objective description
             </p>
@@ -49,28 +42,28 @@
                 <div class="slide">
                     <div class="numbertext">1 / 4</div>
                     <div class="text" style="font-size: 145%">Moving</div>
-                    <img src="Missing_Image _Large.png" style="width:50%"> <!-- add moving image-->
+                    <img src="img/Missing_Image_Large.png" style="width:50%"> <!-- add moving image-->
                     <div class="text">You move this 'a' and 'd'</div>
                 </div>
                 <!-- jumping Slide-->
                 <div class="slide">
                     <div class="numbertext">2 / 4</div>
                     <div class="text" style="font-size: 145%">Jumping</div>
-                    <img src="Missing_Image _Large.png" style="width:50%"> <!-- add jumping image-->
+                    <img src="img/Missing_Image_Large.png" style="width:50%"> <!-- add jumping image-->
                     <div class="text">You jump with 'space'. You have three wings, therefore you can jump three times in midair</div>
                 </div>
                 <!-- sprinting Slide-->
                 <div class="slide">
                     <div class="numbertext">3 / 4</div>
                     <div class="text" style="font-size: 145%">Sprinting</div>
-                    <img src="Missing_Image _Large.png" style="width:50%"> <!-- add sprinting image-->
+                    <img src="img/Missing_Image_Large.png" style="width:50%"> <!-- add sprinting image-->
                     <div class="text">You can sprint by holding 'shift' and moving'</div>
                 </div>
                 <!-- wall walking Slide-->
                 <div class="slide">
                     <div class="numbertext">4 / 4</div>
                     <div class="text" style="font-size: 145%">Wall Walking</div>
-                    <img src="Missing_Image _Large.png" style="width:50%"> <!-- add wall walking image-->
+                    <img src="img/Missing_Image_Large.png" style="width:50%"> <!-- add wall walking image-->
                     <div class="text">On certain walls you can hang and move with 'w' and 's'</div>
                 </div>
             </div>
@@ -94,19 +87,26 @@
                 There are diffrent types of lights you have to watch out for.
             </p>
             <table style="width:80%">
-                <tr>
-                    <td style="width:33%"><img src="Missing_Image.png" alt="yellow light"></td><!-- yellow light image-->
-                    <td style="width:33%"><img src="Missing_Image.png" alt="red light"></td><!-- red light image-->
-                    <td style="width:33%"><img src="Missing_Image.png" alt="blue light"></td><!-- blue light image-->
+                <tr align="center">
+                    <td style="width:33%"><img src="img/Missing_Image.png" alt="yellow light"></td><!-- yellow light image-->
+                    <td style="width:33%"><img src="img/Missing_Image.png" alt="red light"></td><!-- red light image-->
+                    <td style="width:33%"><img src="img/Missing_Image.png" alt="blue light"></td><!-- blue light image-->
                 </tr>
-                <tr style="font-family: cursive; vertical-align:top">
+                <tr style="font-family: cursive; vertical-align:top" align="center">
                     <td style="width:33%">yellow light destription</td><!-- yellow light text-->
                     <td style="width:33%">red light destription</td><!-- red light text-->
                     <td style="width:33%">blue light destription</td><!-- blue light text-->
                 </tr>
-                <tr>
+                <tr align="center">
                 </tr>
             </table>
+
+            <br><br>
+
+            <!-- Download Link-->
+            <button class="button" type="button" onclick="window.open('https://github.com/AlexanderRitter02/GameJamAttraction2022');">
+                Download Now
+            </button>
 
             <footer>
                 <hr class="horizontal line">
