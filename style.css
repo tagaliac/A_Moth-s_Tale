@@ -4,6 +4,7 @@ a.specialeffects:hover {
 }
 p {
     font-family: cursive;
+    font-size: 125%;
 }
 .slideshow-container{
     position: relative;
