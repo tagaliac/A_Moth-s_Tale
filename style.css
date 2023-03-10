@@ -9,8 +9,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    top: 0;
     background-color: #444444;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .nav_links li {
     text-decoration: none;
