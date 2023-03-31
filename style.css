@@ -15,6 +15,11 @@ header {
     width: 100%;
     z-index: 9999;
 }
+
+.main {
+	margin-top: 80px;
+}
+
 .nav_links li {
     text-decoration: none;
     display: inline-block;
