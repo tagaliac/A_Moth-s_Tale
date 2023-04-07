@@ -28,7 +28,8 @@ header {
 .nav_links li a {
     transition: all 0.3s ease 0.3s;
     color: white;
-    font-size: 175%;
+    margin: 0 auto;
+    font-size: 2vw;
 }
 .nav_links li a:hover {
     color: #00d9ff;
