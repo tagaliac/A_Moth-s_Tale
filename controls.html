@@ -2,24 +2,26 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>A Moth's Tale</title>
-		<link rel="icon" type="image/png" href="favicon.png">
-        <!-- style-->
+        <link rel="icon" type="image/png" href="favicon.png">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/JavaScript" src="slider.js"></script>
     </head>
     
-    <body style="background-color:black; color:white" onload="showSlides(1)">
-        <header>
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="howToPlay.html">How To Play</a></li>
-                    <li><a href="controls.html">Controls</a></li>
-                    <li><a href="enemies.html">Lights and Enemies</a></li>
-                </ul>
-            </nav>
-        </header>
+    <body onload="showSlides(1)">
+
+        <div class="topnav" id="toppanel">
+            <a href="index.html">Home</a>
+            <a href="howToPlay.html">How To Play</a>
+            <a href="controls.html">Controls</a>
+            <a href="enemies.html">Lights and Enemies</a>
+            <a href="download.html">Download</a>
+            <a href="javascript:void(0);" class="icon" onclick="openHamburger()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
 
         <div class="main">
             <div align="center">
@@ -107,4 +109,5 @@
             </div>
         </div>
 	</body>
+    <script type="text/JavaScript" src="navbar-responsive.js"></script>
 </html>
