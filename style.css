@@ -87,6 +87,11 @@ header {
     color: white;
     font-size: 175%;
 }
+
+h3 {
+    font-size: 190%;
+}
+
 .topnav a:hover {
     color: #00d9ff;
 }
