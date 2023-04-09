@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Shantell Sans', cursive;
-    text-decoration: none;
 }
 
 body {
@@ -10,6 +9,11 @@ body {
   background-color: #404040;
   color: #f2f2f2;
 }
+
+/* Color of links */
+a {  
+  color: lightskyblue;  
+}  
 
 .topnav {
   overflow: hidden;
