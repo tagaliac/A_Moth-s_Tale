@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Sniglet&display=swap');
+
 
 * {
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Pangolin', cursive;
 }
 
 body {
@@ -84,7 +86,7 @@ a {
 }
 
 .topnav a:hover {
-    color: #00d9ff;
+    color: #E5B462;
 }
 
 .sticky {
@@ -95,7 +97,7 @@ a {
 }
 
 a.specialeffects:hover {
-    background-color: #00d9ff; 
+    background-color: #E5B462; 
     text-decoration: underline;
 }
 p {
@@ -182,7 +184,7 @@ p {
 }
 
 .button:hover{
-    color: #00d9ff;
+    color: #E5B462;
 }
 
 /* Fading animation */
