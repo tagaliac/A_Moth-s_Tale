@@ -162,13 +162,23 @@ p {
 }*/
 
 /* button styling*/
-.button{
+.button {
     border-color: white;
     background-color: #7777;
     font-size: 64px;
     color: white;
     text-align: center;
     text-decoration: underline;
+    max-width:100%
+}
+
+/* Quickfix for too big download button text */
+@media screen and (max-width: 600px) {
+    
+    .button {
+        font-size: 50px;
+    }
+    
 }
 
 .button:hover{
